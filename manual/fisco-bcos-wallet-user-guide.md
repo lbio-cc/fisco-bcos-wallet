@@ -18,18 +18,14 @@ chrome://extensions/
 ```text
 例如：C:\fisco-bcos-wallet\dist
 ```
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/2.png" alt="加载未打包的扩展程序" style="display: block; width: 100%; height: auto;" />
-</div>
+![加载未打包的扩展程序](images/2.png)
 6. 浏览器右上角出现 `FISCO BCOS Wallet` 图标后，说明安装成功。
 
 ## 2. 创建或恢复钱包
 
 第一次打开插件时会显示“管理你的链上账户”页面。可以创建新的助记词钱包，也可以使用已有助记词恢复钱包。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/03-wallet-welcome.png" alt="首次打开钱包" style="display: block; width: 100%; height: auto;" />
-</div>
+![首次打开钱包](images/03-wallet-welcome.png)
 
 ### 创建新钱包
 
@@ -39,27 +35,19 @@ chrome://extensions/
 4. 设置钱包密码并再次确认。密码至少需要 10 个字符，仅用于解锁当前浏览器中的本地钱包。
 5. 点击“生成钱包”。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/04-wallet-create-form.png" alt="创建助记词钱包" style="display: block; width: 100%; height: auto;" />
-</div>
+![创建助记词钱包](images/04-wallet-create-form.png)
 
 钱包生成后会进入“抄写恢复短语”页面。请按照编号离线抄写助记词，确认顺序正确后点击“我已安全保存”。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/05-wallet-mnemonic-warning.png" alt="备份助记词安全提示" style="display: block; width: 100%; height: auto;" />
-</div>
+![备份助记词安全提示](images/05-wallet-mnemonic-warning.png)
 
 钱包会随机要求填写若干指定位置的单词。根据离线备份填写，点击“完成验证”。验证成功后进入钱包首页。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/06-wallet-confirm-mnemonic.png" alt="确认助记词备份" style="display: block; width: 100%; height: auto;" />
-</div>
+![确认助记词备份](images/06-wallet-confirm-mnemonic.png)
 
 助记词验证成功后会进入到主界面。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/07-wallet-home-unconfigured.png" alt="钱包创建完成" style="display: block; width: 100%; height: auto;" />
-</div>
+![钱包创建完成](images/07-wallet-home-unconfigured.png)
 
 ### 恢复已有钱包
 
@@ -71,9 +59,7 @@ chrome://extensions/
 
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/08-wallet-restore-form.png" alt="恢复已有钱包" style="display: block; width: 100%; height: auto;" />
-</div>
+![恢复已有钱包](images/08-wallet-restore-form.png)
 
 安全提示：
 
@@ -89,9 +75,7 @@ chrome://extensions/
 在钱包首页点击顶部的“未配置网络”，再点击“管理网络”进入网络管理页面。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/09-network-unconfigured.png" alt="未配置网络" style="display: block; width: 100%; height: auto;" />
-</div>
+![未配置网络](images/09-network-unconfigured.png)
 
 进入钱包的“网络管理”页面，点击“添加网络”，填写以下信息：
 
@@ -109,16 +93,12 @@ chrome://extensions/
 确认 URL、群组 ID、RPC 类型和密码体系无误后，点击“验证并添加网络”。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/10-network-local-gm-form.png" alt="添加本地国密链" style="display: block; width: 100%; height: auto;" />
-</div>
+![添加本地国密链](images/10-network-local-gm-form.png)
 
 验证成功后，该网络会保存并成为当前网络。可以返回网络管理页面继续添加更多网络。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/11-network-other-form.png" alt="添加数据可信链" style="display: block; width: 100%; height: auto;" />
-</div>
+![添加数据可信链](images/11-network-other-form.png)
 
 ## 4. 切换网络
 
@@ -134,9 +114,7 @@ chrome://extensions/
 
 4. 返回首页确认网络已切换。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/12-network-switch.png" alt="切换国密网络" style="display: block; width: 100%; height: auto;" />
-</div>
+![切换国密网络](images/12-network-switch.png)
 
 ## 5. 管理账户
 
@@ -150,15 +128,11 @@ chrome://extensions/
 4. 点击其他账户即可将其设为当前账户。切换后，资产和活动记录也会随当前账户更新。
 5. 点击“管理账户”进入账户管理页面。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/13-account-switch.png" alt="打开账户切换菜单" style="display: block; width: 100%; height: auto;" />
-</div>
+![打开账户切换菜单](images/13-account-switch.png)
 
 账户管理页面会显示账户名称、当前网络下的地址以及当前账户标记。列表中的复制按钮用于复制地址，右侧的 `•••` 按钮用于打开账户操作菜单。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/13-account-management.png" alt="账户管理页面" style="display: block; width: 100%; height: auto;" />
-</div>
+![账户管理页面](images/13-account-management.png)
 
 ### 添加派生账户
 
@@ -168,15 +142,11 @@ chrome://extensions/
 
 账户名称和备注只用于本地识别，不会改变账户地址或私钥。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/13-account-add-form.png" alt="添加派生账户" style="display: block; width: 100%; height: auto;" />
-</div>
+![添加派生账户](images/13-account-add-form.png)
 
 添加成功后，新账户会出现在账户列表中并成为当前账户。原账户仍然保留，可随时切换回来。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/13-account-added.png" alt="派生账户添加成功" style="display: block; width: 100%; height: auto;" />
-</div>
+![派生账户添加成功](images/13-account-added.png)
 
 ### 编辑或删除账户
 
@@ -188,9 +158,7 @@ chrome://extensions/
 
 钱包至少需要保留一个账户，因此只剩一个账户时不能删除。删除派生账户不会销毁链上资产；以后仍可使用同一助记词和派生索引重新恢复，但删除前应确认已经安全备份助记词。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/13-account-actions.png" alt="账户操作菜单" style="display: block; width: 100%; height: auto;" />
-</div>
+![账户操作菜单](images/13-account-actions.png)
 
 ### 导出私钥
 
@@ -201,15 +169,11 @@ chrome://extensions/
 3. 勾选风险确认框。
 4. 输入钱包密码，点击“验证并显示私钥”。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/13-account-export-form.png" alt="导出私钥安全验证" style="display: block; width: 100%; height: auto;" />
-</div>
+![导出私钥安全验证](images/13-account-export-form.png)
 
 验证成功后，私钥只会在当前页面临时显示。需要使用时可以点击“复制”，使用完成后立即点击“完成并清除”，不要截图、上传云端、粘贴到网站或通过聊天工具发送。
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/13-account-private-key.png" alt="临时显示私钥（已打码）" style="display: block; width: 100%; height: auto;" />
-</div>
+![临时显示私钥（已打码）](images/13-account-private-key.png)
 
 ## 6. 管理资产
 
@@ -223,13 +187,9 @@ chrome://extensions/
 4. 在弹出的“管理”窗口中添加、刷新、编辑或删除合约资产。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/14-asset-manager.png" alt="资产管理" style="display: block; width: 100%; height: auto;" />
-</div>
+![资产管理](images/14-asset-manager.png)
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/14-asset-manager-empty.png" alt="空资产管理窗口" style="display: block; width: 100%; height: auto;" />
-</div>
+![空资产管理窗口](images/14-asset-manager-empty.png)
 
 ### 添加 ERC20 合约资产
 
@@ -238,16 +198,12 @@ chrome://extensions/
 钱包会读取合约信息并识别资产类型，添加成功后会显示资产名称、符号、合约地址和添加时间。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/15-asset-erc20-added.png" alt="ERC20 添加成功" style="display: block; width: 100%; height: auto;" />
-</div>
+![ERC20 添加成功](images/15-asset-erc20-added.png)
 
 添加完成后，回到资产首页可以在 `ERC20` 区域看到该代币。页面会显示代币名称、符号和当前账户余额。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/16-asset-home-erc20.png" alt="ERC20 资产首页" style="display: block; width: 100%; height: auto;" />
-</div>
+![ERC20 资产首页](images/16-asset-home-erc20.png)
 
 说明：
 - 当前仅支持标准 ERC20 合约。
@@ -262,9 +218,7 @@ chrome://extensions/
 钱包支持 `Enumerable ERC721` 合约，添加成功后会在管理窗口中显示 NFT 合约信息。
 
 <!-- 截图要求：资产管理窗口同时显示已添加的 ERC20 和 ERC721，以及两个指定合约地址。 -->
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/17-asset-erc721-added.png" alt="ERC721 添加成功" style="display: block; width: 100%; height: auto;" />
-</div>
+![ERC721 添加成功](images/17-asset-erc721-added.png)
 
 添加完成后，回到资产首页可以在 `ERC721` 区域查看该账户持有的 NFT。页面支持“全部”和“系列”两种查看方式：
 
@@ -272,9 +226,7 @@ chrome://extensions/
 - “系列”会按 NFT 合约进行归类，便于资产较多时查看。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/18-asset-home-erc721.png" alt="ERC721 资产首页" style="display: block; width: 100%; height: auto;" />
-</div>
+![ERC721 资产首页](images/18-asset-home-erc721.png)
 
 说明：
 - 当前仅支持 Enumerable ERC721 合约。
@@ -313,9 +265,7 @@ window.fisco
 授权成功后，DApp 可以读取已授权账户地址。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/19-dapp-connect-approval.png" alt="DApp 连接授权" style="display: block; width: 100%; height: auto;" />
-</div>
+![DApp 连接授权](images/19-dapp-connect-approval.png)
 
 ## 8. 读取链上信息
 
@@ -346,9 +296,7 @@ window.fisco
 确认无误后点击“确认”，钱包会在本地签名并发送交易。拒绝后，交易不会发送。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/20-transaction-approval.png" alt="交易确认" style="display: block; width: 100%; height: auto;" />
-</div>
+![交易确认](images/20-transaction-approval.png)
 
 ## 10. 站点授权管理
 
@@ -357,9 +305,7 @@ window.fisco
 用户可以在钱包中查看并撤销站点授权。撤销后，该站点需要重新请求连接钱包，才能再次读取账户。
 
 
-<div style="max-width: 414px; margin: 0 auto;">
-  <img src="images/21-site-permissions.png" alt="站点授权管理" style="display: block; width: 100%; height: auto;" />
-</div>
+![站点授权管理](images/21-site-permissions.png)
 
 ## 11. 常见问题
 
